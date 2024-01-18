@@ -2,6 +2,7 @@ package com.desafiobrq.service;
 
 import com.desafiobrq.entity.Cliente;
 import com.desafiobrq.entity.Conta;
+import com.desafiobrq.model.conta.DadosDetalhamenteConta;
 import com.desafiobrq.model.conta.DadosInserirConta;
 import com.desafiobrq.repository.ClienteRepository;
 import com.desafiobrq.repository.ContaRepository;

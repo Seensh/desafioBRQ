@@ -2,7 +2,7 @@ package com.desafiobrq.model.cliente;
 
 import com.desafiobrq.entity.Cliente;
 import com.desafiobrq.model.endereco.DadosDetalhamentoEndereco;
-import com.desafiobrq.service.DadosDetalhamenteConta;
+import com.desafiobrq.model.conta.DadosDetalhamenteConta;
 
 import java.util.List;
 

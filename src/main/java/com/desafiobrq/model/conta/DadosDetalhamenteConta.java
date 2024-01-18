@@ -1,4 +1,4 @@
-package com.desafiobrq.service;
+package com.desafiobrq.model.conta;
 
 import com.desafiobrq.entity.Conta;
 import com.desafiobrq.model.cliente.DadosDetalhamentoCliente;

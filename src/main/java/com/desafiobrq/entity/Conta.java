@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.Objects;
 
 @Entity(name = "conta")
 @Table(name = "conta")
@@ -48,5 +49,11 @@ public class Conta {
         this.saldo = dadosConta.saldo();
         this.dataInclusao = new Date();
         this.cliente = cliente;
+    }
+
+    public void ajusteSaldo(BigDecimal novoSaldo) {
+        if(Objects.nonNull(novoSaldo)){
+            this.saldo = novoSaldo;
+        }
     }
 }
