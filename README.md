@@ -1,4 +1,8 @@
-﻿# Projeto DesafioBRQ
+## Atualização 22/01/2024
+O Free tier do AWS EC2 de 720h foi expirado e consequentemente a API e o banco (aws RDS) não estão mais ativos, para executar a API será necessário baixar localmente, instalar o postgres ou via inicializar via docker, instanciar um novo banco (banco_brq), criar as tabelas via script, inserir o cliente, conta e testar as transferências, os detalhes estão descritos abaixo.
+
+ 
+ # Projeto DesafioBRQ
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
